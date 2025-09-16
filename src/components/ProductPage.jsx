@@ -100,12 +100,12 @@ const ProductPage = ({product}) => {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <div className="grid grid-cols-3 md:grid-cols-4 gap-3 mb-4">
+                <div className="grid grid-cols-3 gap-2 md:gap-3 md:grid-cols-4 mb-4">
                   {colorOptions.map((color) => (
                     <button
                       key={color.code}
                       onClick={() => setSelectedColor(color.code)}
-                      className={`w-24 h-24 group relative aspect-square rounded-lg border-2 transition-all hover:scale-105 ${
+                      className={`w-12 h-12 md:w-24 md:h-24 group relative aspect-square rounded-lg border-2 transition-all hover:scale-105 ${
                         selectedColor === color.code ? 'border-slate-900 ring-2 ring-slate-900 ring-offset-2' : 'border-slate-300 hover:border-slate-400'
                       }`}
                       style={{ backgroundColor: color.color }}
