@@ -9,7 +9,7 @@ const Navbar = () => {
             <div className="flex items-center justify-between px-6 py-4">
                 {/* Left: Logo */}
                 <div className="flex flex-col justify-center items-center text-sm">
-                    <a href="/">
+                    <a href="/millenniumdachroof/">
                         <img src="/millenniumdachroof/logo.png" className="w-16 h-16"/>
                         <p className="text-[#0ac0ac]">
                             Millenium <span className="text-black">Dach Roof</span>
