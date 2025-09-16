@@ -10,7 +10,7 @@ const Navbar = () => {
                 {/* Left: Logo */}
                 <div className="flex flex-col justify-center items-center text-sm">
                     <a href="/millenniumdachroof/">
-                        <img src="/millenniumdachroof/logo.png" className="w-16 h-16"/>
+                        <img src="/millenniumdachroof/logo.png" className="w-16 h-16" />
                         <p className="text-[#0ac0ac]">
                             Millenium <span className="text-black">Dach Roof</span>
                         </p>
@@ -43,7 +43,9 @@ const Navbar = () => {
                 {/* Right: Cart & Mobile Menu */}
                 <div className="flex items-center gap-4">
                     <Button variant="outline" size="icon">
-                        <ShoppingBag className="h-5 w-5 text-gray-700" />
+                        <a href="/millenniumdachroof/cart">
+                            <ShoppingBag className="h-8 w-8 text-gray-700" />
+                        </a>
                     </Button>
 
                     {/* Mobile Menu */}
