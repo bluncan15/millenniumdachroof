@@ -59,6 +59,7 @@ const CarouselNext = ({ onClick, className = "" }) => {
 const HeroCarousel = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
     const [isAutoPlaying, setIsAutoPlaying] = useState(true);
+    const [loaded, setLoaded] = useState(false);
 
     const slides = [
         {
@@ -216,8 +217,8 @@ const HeroCarousel = () => {
                             size="sm"
                             onClick={() => goToSlide(index)}
                             className={`w-3 h-3 rounded-full p-0 transition-all duration-300 ${index === currentSlide
-                                    ? 'bg-white scale-125 shadow-lg'
-                                    : 'bg-white/50 hover:bg-white/75'
+                                ? 'bg-white scale-125 shadow-lg'
+                                : 'bg-white/50 hover:bg-white/75'
                                 }`}
                         />
                     ))}

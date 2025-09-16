@@ -64,44 +64,38 @@ const ContactForm = () => {
                 <div className="lg:w-1/2">
                     <Card className="shadow-md">
                         <CardHeader>
-                            <CardTitle>Send a Message</CardTitle>
+                            <CardTitle>Trimite-ne un mesaj</CardTitle>
                         </CardHeader>
                         <CardContent>
                             <form className="space-y-4" onSubmit={handleSubmit}>
                                 <div className="flex gap-4">
                                     <Input
-                                        name="firstName"
-                                        placeholder="First Name"
+                                        name="Nume"
+                                        placeholder="Nume"
                                         value={form.firstName}
-                                        onChange={handleChange}
-                                    />
-                                    <Input
-                                        name="lastName"
-                                        placeholder="Last Name"
-                                        value={form.lastName}
                                         onChange={handleChange}
                                     />
                                 </div>
                                 <Input
                                     name="email"
                                     type="email"
-                                    placeholder="Email"
+                                    placeholder="Adresa de email"
                                     value={form.email}
                                     onChange={handleChange}
                                 />
                                 <Input
                                     name="subject"
-                                    placeholder="Subject"
+                                    placeholder="Subiect"
                                     value={form.subject}
                                     onChange={handleChange}
                                 />
                                 <Textarea
                                     name="message"
-                                    placeholder="Type your message here."
+                                    placeholder="Scrie measjul aici"
                                     value={form.message}
                                     onChange={handleChange}
                                 />
-                                <Button type="submit" className="w-full bg-green-700 hover:bg-green-500 text-white">
+                                <Button type="submit" className="w-full bg-[#0ac0ac] hover:bg-green-500 text-white">
                                     Send Message
                                 </Button>
                             </form>
