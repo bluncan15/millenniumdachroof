@@ -96,7 +96,7 @@ const ContactForm = () => {
                                     onChange={handleChange}
                                 />
                                 <Button type="submit" className="w-full bg-[#0ac0ac] hover:bg-green-500 text-white">
-                                    Send Message
+                                    Trimite mesajul
                                 </Button>
                             </form>
                         </CardContent>
