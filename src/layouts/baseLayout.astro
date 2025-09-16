@@ -1,0 +1,28 @@
+---
+import '../styles/global.css';
+const { content } = Astro.props;
+
+import Navbar from "@/components/navbar"
+import Footer from "@/components/footer"
+import { Separator } from '@/components/ui/separator';
+import { ClientRouter } from "astro:transitions";
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<title>MilleniumDachRoof.ro</title>
+		<ClientRouter />
+	</head>
+	<body>
+		<div class="px-4 sm:px-[5vw] md:px-[7vw] lg:px-[2vw]" transition:animate="fade">
+			<Navbar client:load />
+			<Separator className="my-2" />
+			<slot />
+			<Separator className="my-2" />
+			<Footer client:load />
+		</div>
+	</body>
+</html>
