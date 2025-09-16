@@ -55,10 +55,10 @@ const Navbar = () => {
                         </SheetTrigger>
                         <SheetContent side="left" className="w-64 bg-white p-6">
                             <nav className="flex flex-col gap-4 text-lg font-medium">
-                                <a href="/" className="hover:text-teal-500 transition-colors">Acasă</a>
-                                <a href="/produse" className="hover:text-teal-500 transition-colors">Produse</a>
-                                <a href="/despre" className="hover:text-teal-500 transition-colors">Despre noi</a>
-                                <a href="/contact" className="hover:text-teal-500 transition-colors">Contact</a>
+                                <a href="/millenniumdachroof/" className="hover:text-teal-500 transition-colors">Acasă</a>
+                                <a href="/millenniumdachroof/produse" className="hover:text-teal-500 transition-colors">Produse</a>
+                                <a href="/millenniumdachroof/despre" className="hover:text-teal-500 transition-colors">Despre noi</a>
+                                <a href="/millenniumdachroof/contact" className="hover:text-teal-500 transition-colors">Contact</a>
                             </nav>
                         </SheetContent>
                     </Sheet>
