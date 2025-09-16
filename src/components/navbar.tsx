@@ -10,7 +10,7 @@ const Navbar = () => {
                 {/* Left: Logo */}
                 <div className="flex flex-col justify-center items-center text-sm">
                     <a href="/">
-                        <img src="/logo.png" className="w-16 h-16"/>
+                        <img src="/millenniumdachroof/logo.png" className="w-16 h-16"/>
                         <p className="text-[#0ac0ac]">
                             Millenium <span className="text-black">Dach Roof</span>
                         </p>
@@ -22,7 +22,7 @@ const Navbar = () => {
                     <NavigationMenu>
                         <NavigationMenuList className="flex gap-8">
                             <NavigationMenuItem>
-                                <NavigationMenuLink href="/milleniumdachroof" className="text-gray-700 hover:text-teal-500 transition-colors">
+                                <NavigationMenuLink href="/millenniumdachroof/" className="text-gray-700 hover:text-teal-500 transition-colors">
                                     ACASĂ
                                 </NavigationMenuLink>
                             </NavigationMenuItem>

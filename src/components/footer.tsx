@@ -10,7 +10,7 @@ export default function Footer() {
             <CardContent className="flex flex-col sm:grid grid-cols-[3fr_1fr_1fr] gap-14 text-sm">
                 {/* Logo & Description */}
                 <div>
-                    <img src={assets.logo.src} alt="Millennium Dach Roof" className="mb-5 w-32" />
+                    <img src="/millenniumdachroof/logo.png" alt="Millennium Dach Roof" className="mb-5 w-32" />
                     <p className="w-full sm:w-2/3 text-[#0ac0ac]">
                         Millenium <span className="text-black">Dach Roof</span>
                     </p>
@@ -19,9 +19,9 @@ export default function Footer() {
                 {/* Navigation Links */}
                 <div>
                     <ul className="flex flex-col text-black cursor-pointer space-y-2">
-                        <li><a href="/sitetoni/">Acasă</a></li>
-                        <li><a href="/sitetoni/about/">Despre noi</a></li>
-                        <li><a href="/sitetoni/contact/">Contact</a></li>
+                        <li><a href="/millenniumdachroof/">Acasă</a></li>
+                        <li><a href="/millenniumdachroof/about/">Despre noi</a></li>
+                        <li><a href="/millenniumdachroof/contact/">Contact</a></li>
                     </ul>
                 </div>
 

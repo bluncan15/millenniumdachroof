@@ -11,13 +11,13 @@ import {
 } from "@/components/ui/select"
 
 const products = [
-  { id: 1, name: "Nova", price: 1234, brand: "Rufster", image: "/products/nova.png" },
-  { id: 2, name: "Terra", price: 456, brand: "Rufster", image: "/products/terra.png" },
-  { id: 3, name: "Kingas", price: 678, brand: "Blachotrapez", image: "/products/kingas.webp" },
-  { id: 4, name: "Enigma", price: 890, brand: "Blachotrapez", image: "/products/enigma.jpg" },
-  { id: 5, name: "Diament", price: 1011, brand: "Blachotrapez", image: "/products/diament.webp" },
-  { id: 6, name: "Celesta", price: 1122, brand: "Rufster", image: "/products/celesta.png" },
-  { id: 7, name: "Aqua", price: 1213, brand: "Rufster", image: "/products/aqua.png" },
+  { id: 1, name: "Nova", price: 1234, brand: "Rufster", image: "/millenniumdachroof/products/nova.png" },
+  { id: 2, name: "Terra", price: 456, brand: "Rufster", image: "/millenniumdachroof/products/terra.png" },
+  { id: 3, name: "Kingas", price: 678, brand: "Blachotrapez", image: "/millenniumdachroof/products/kingas.webp" },
+  { id: 4, name: "Enigma", price: 890, brand: "Blachotrapez", image: "/millenniumdachroof/products/enigma.jpg" },
+  { id: 5, name: "Diament", price: 1011, brand: "Blachotrapez", image: "/millenniumdachroof/products/diament.webp" },
+  { id: 6, name: "Celesta", price: 1122, brand: "Rufster", image: "/millenniumdachroof/products/celesta.png" },
+  { id: 7, name: "Aqua", price: 1213, brand: "Rufster", image: "/millenniumdachroof/products/aqua.png" },
 ]
 
 export default function ProductPage() {
