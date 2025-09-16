@@ -12,4 +12,6 @@ export default defineConfig({
 	},
 
   integrations: [react()],
+  site: 'https://bluncan15.github.io',
+  base: 'millenniumdachroof',
 });
