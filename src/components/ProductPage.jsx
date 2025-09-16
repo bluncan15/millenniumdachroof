@@ -120,7 +120,7 @@ const ProductPage = ({product}) => {
                 {selectedColorData && (
                   <div className="flex items-center gap-3 p-3 bg-slate-50 rounded-lg">
                     <div 
-                      className="w-8 h-8 rounded-full border-2 border-white shadow-sm"
+                      className="w-12 h-12 rounded-full border-2 border-white shadow-sm"
                       style={{ backgroundColor: selectedColorData.color }}
                     ></div>
                     <div>

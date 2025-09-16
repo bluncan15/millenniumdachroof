@@ -109,7 +109,7 @@ export default function ProductPage() {
         {filteredProducts.length === 0 ? (
           <p className="text-muted-foreground">Niciun produs găsit.</p>
         ) : (
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {filteredProducts.map((product) => (
               <Card
                 key={product.id}
